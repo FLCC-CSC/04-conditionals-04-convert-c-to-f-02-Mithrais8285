@@ -22,8 +22,6 @@ print ("1. Convert from Celsius to Fahrenheit\n")
 choice = int(input("Please choose from the above menu: "))
 temp = float(input("Enter a temperature to convert: "))
 
-print ()
-
 if choice == 1:
     converted = (temp * 9/5) + 32
     print (f"{temp:.1f} degrees Celsius is {converted:.1f} degrees Fahrenheit.")
