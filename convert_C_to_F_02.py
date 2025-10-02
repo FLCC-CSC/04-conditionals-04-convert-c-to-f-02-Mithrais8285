@@ -24,10 +24,10 @@ temp = float(input("Enter a temperature to convert: "))
 
 if choice == 1:
     converted = (temp * 9/5) + 32
-    print (f"{temp:.1f} degrees Celsius is {converted:.1f} degrees Fahrenheit.")
+    print (f"\n{temp:.1f} degrees Celsius is {converted:.1f} degrees Fahrenheit.")
 elif choice == 2:
     converted = (temp - 32) * 5/9
-    print (f"{temp:.1f} degrees Fahrenheit is {converted:.1f} degrees Celsius.")
+    print (f"\n{temp:.1f} degrees Fahrenheit is {converted:.1f} degrees Celsius.")
 else:
     print ("Invalid choice.")
 
